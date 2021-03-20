@@ -8,7 +8,8 @@
     "start": "node ./build/index/js",
     "dev": "nodemon --exec babel-node src/index.js",
     "lint": "eslint ."
-  },  "author": "Rodolfo Roman <rromanv@gmail.com>",
+  },
+  "author": "Rodolfo Roman <rromanv@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.13.10",
@@ -23,5 +24,8 @@
     "eslint-plugin-prettier": "^3.3.1",
     "nodemon": "^2.0.7",
     "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
